@@ -1,0 +1,22 @@
+{
+  "name": "@neosmith-ai/cli",
+  "version": "0.1.0",
+  "description": "Drop-in router for Claude Code: same experience, ~60% lower inference cost.",
+  "keywords": ["claude", "claude-code", "anthropic", "router", "llm", "neosmith"],
+  "homepage": "https://neosmith.ai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Neosmith-ai/cli.git"
+  },
+  "bugs": "https://github.com/Neosmith-ai/issues/issues",
+  "license": "MIT",
+  "author": "NeoSmith AI <contact-us@neosmith.ai>",
+  "bin": {
+    "neosmith": "bin/neosmith.js"
+  },
+  "main": "bin/neosmith.js",
+  "files": ["bin/", "README.md"],
+  "engines": {
+    "node": ">=16"
+  }
+}
