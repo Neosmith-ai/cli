@@ -4,9 +4,9 @@
 // lower inference cost.
 //
 // Usage:
-//   npx @neosmith-ai/cli init <api-key>
-//   npx @neosmith-ai/cli verify
-//   npx @neosmith-ai/cli uninstall
+//   npx @neosmithai/cli init <api-key>
+//   npx @neosmithai/cli verify
+//   npx @neosmithai/cli uninstall
 //
 // Zero runtime deps on purpose — only Node stdlib.
 
@@ -143,7 +143,7 @@ function cmdHelp() {
   log("  " + c("cyan", "neosmith uninstall") + "          Restore Claude Code to direct Anthropic.");
   log("");
   log(c("bold", "Example:"));
-  log(`  ${c("dim", "$")} npx @neosmith-ai/cli init sk-plus-alice-xxxxxx`);
+  log(`  ${c("dim", "$")} npx @neosmithai/cli init sk-plus-alice-xxxxxx`);
   log("");
   log(c("dim", "No NeoSmith account yet? Email contact-us@neosmith.ai for a trial key."));
   log(c("dim", `Docs: ${ROUTER}/me/login  ·  Status: github.com/Neosmith-ai/issues`));

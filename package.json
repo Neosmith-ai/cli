@@ -1,5 +1,5 @@
 {
-  "name": "@neosmith-ai/cli",
+  "name": "@neosmithai/cli",
   "version": "0.1.0",
   "description": "Drop-in router for Claude Code: same experience, ~60% lower inference cost.",
   "keywords": ["claude", "claude-code", "anthropic", "router", "llm", "neosmith"],

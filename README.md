@@ -1,11 +1,11 @@
-# @neosmith-ai/cli
+# @neosmithai/cli
 
 Drop-in router for Claude Code. Same experience, ~60% lower inference cost.
 
 ## Install
 
 ```bash
-npx @neosmith-ai/cli init sk-plus-alice-xxxxxx
+npx @neosmithai/cli init sk-plus-alice-xxxxxx
 ```
 
 That's it. Open a new Claude Code session and your next prompt routes through
@@ -51,7 +51,7 @@ Manage your key, rotate it, and see cap usage at:
 ## Uninstall
 
 ```bash
-npx @neosmith-ai/cli uninstall
+npx @neosmithai/cli uninstall
 ```
 
 Claude Code goes back to Anthropic direct on its next launch.
